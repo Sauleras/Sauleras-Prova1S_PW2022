@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100px;
+    text-transform: uppercase;
+    background: #ebebeb;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+table, th, td{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    padding: 15px 5px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    padding: 35px 0;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.country img {
+    width: 100%;
+    height: 500px;
+}
+
+.boxCountry {
+    width: 50%;
+    margin: 5px auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.boxCountry h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.boxCountry h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.boxCountry p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.worldCup {
+    margin-bottom: 10px;
+}
+
+.boxWorldcup {
+    width: 50%;
+    margin: 5px auto;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.boxWorldcup h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.boxWorldcup h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.boxWorldcup p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.groups {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.groups h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 5px 0;
+}
+
+.groupsImg {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.groupsImg li {
+    display: inline;
+}
+
+.groupsImg img {
+    width: 30%;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    height: 400px;
+    width: 470px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #fff;
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+}
