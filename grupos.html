@@ -11,11 +11,11 @@
 
 <body>
     <header>
-        <h1>Copa do Mundo 2022</h1>
+        <a href="index.html"><img src="images/logoCopa.png" alt="logo da copa 2022"></a>
         <nav>
             <ul>
-                <li><a href="index.html">Inicio /</a></li>
-                <li><a href="estadios.html">Estádios /</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="estadios.html">Estádios</a></li>
                 <li><a href="selecoes.html">Seleções</a></li>
             </ul>
         </nav>
@@ -25,10 +25,10 @@
             <h1>Fase de Grupos</h1>
             <ul class="groupsImg">
                 <li>
-                    <a href="#"><img src="images/grupo_a.jpg" alt="grupo A da copa"></a>
+                    <a href="#modalA"><img src="images/grupo_a.jpg" alt="grupo A da copa"></a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/grupo_b.jpg" alt="grupo B da copa"></a>
+                    <a href="#modalB"><img src="images/grupo_b.jpg" alt="grupo B da copa"></a>
                 </li>
                 <li>
                     <a href="#modalC"><img src="images/grupo_c.jpg" alt="grupo C da copa"></a>
@@ -40,7 +40,7 @@
                     <a href="#modalE"><img src="images/grupo_e.jpg" alt="grupo E da copa"></a>
                 </li>
                 <li>
-                    <a href="#"><img src="images/grupo_f.jpg" alt="grupo F da copa"></a>
+                    <a href="#modalF"><img src="images/grupo_f.jpg" alt="grupo F da copa"></a>
                 </li>
                 <li>
                     <a href="#modalG"><img src="images/grupo_g.jpg" alt="grupo G da copa"></a>
@@ -50,9 +50,89 @@
                 </li>
             </ul>
 
+            <div id="modalA" class="modal">
+                <a href="#fechar" title="Fechar" class="fechar">x</a>
+                <table class="groupsTable">
+                    <tr>
+                        <th>Data/Hora</th>
+                        <th>Estádio</th>
+                        <th>Jogo</th>
+                    </tr>
+                    <tr>
+                        <td>21/11/2022 – 13:00</td>
+                        <td>Al Thumama</td>
+                        <td>Senegal x Holanda</td>
+                    </tr>
+                    <tr>
+                        <td>22/11/2022 – 19:00</td>
+                        <td>Al Bayt</td>
+                        <td>Qatar x Equador</td>
+                    </tr>
+                    <tr>
+                        <td>25/11/2022 – 16:00</td>
+                        <td>Al Thumama</td>
+                        <td>Qatar x Senegal</td>
+                    </tr>
+                    <tr>
+                        <td>25/11/2022 – 19:00</td>
+                        <td>Khalifa</td>
+                        <td>Holanda x Equador</td>
+                    </tr>
+                    <tr>
+                        <td>29/11/2022 – 18:00</td>
+                        <td>Al Bayt</td>
+                        <td>Holanda x Qatar</td>
+                    </tr>
+                    <tr>
+                        <td>29/11/2022 – 18:00</td>
+                        <td>Khalifa</td>
+                        <td>Equador x Senegal</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="modalB" class="modal">
+                <a href="#fechar" title="Fechar" class="fechar">x</a>
+                <table class="groupsTable">
+                    <tr>
+                        <th>Data/Hora</th>
+                        <th>Estádio</th>
+                        <th>Jogo</th>
+                    </tr>
+                    <tr>
+                        <td>21/11/2022 – 16:00</td>
+                        <td>Khalifa</td>
+                        <td>Inglaterra x Irã</td>
+                    </tr>
+                    <tr>
+                        <td>21/11/2022 – 22:00</td>
+                        <td>Ahmed Bin Ali</td>
+                        <td>USA x Playoff Europeu</td>
+                    </tr>
+                    <tr>
+                        <td>25/11/2022 – 13:00</td>
+                        <td>Ahmed Bin Ali</td>
+                        <td>Playoff Europeu x Irã</td>
+                    </tr>
+                    <tr>
+                        <td>25/11/2022 – 22:00</td>
+                        <td>Al Bayt</td>
+                        <td>Inglaterra x USA</td>
+                    </tr>
+                    <tr>
+                        <td>29/11/2022 – 22:00</td>
+                        <td>Ahmed Bin Ali</td>
+                        <td>Playoff Europeu x Inglaterra</td>
+                    </tr>
+                    <tr>
+                        <td>29/11/2022 – 22:00</td>
+                        <td>Al Thumama</td>
+                        <td>Irã x USA</td>
+                    </tr>
+                </table>
+            </div>
             <div id="modalC" class="modal">
                 <a href="#fechar" title="Fechar" class="fechar">x</a>
-                <table>
+                <table class="groupsTable">
                     <tr>
                         <th>Data/Hora</th>
                         <th>Estádio</th>
@@ -92,7 +172,7 @@
             </div>
             <div id="modalD" class="modal">
                 <a href="#fechar" title="Fechar" class="fechar">x</a>
-                <table>
+                <table class="groupsTable">
                     <tr>
                         <th>Data/Hora</th>
                         <th>Estádio</th>
@@ -132,7 +212,7 @@
             </div>
             <div id="modalE" class="modal">
                 <a href="#fechar" title="Fechar" class="fechar">x</a>
-                <table>
+                <table class="groupsTable">
                     <tr>
                         <th>Data/Hora</th>
                         <th>Estádio</th>
@@ -170,9 +250,49 @@
                     </tr>
                 </table>
             </div>
+            <div id="modalF" class="modal">
+                <a href="#fechar" title="Fechar" class="fechar">x</a>
+                <table class="groupsTable">
+                    <tr>
+                        <th>Data/Hora</th>
+                        <th>Estádio</th>
+                        <th>Jogo</th>
+                    </tr>
+                    <tr>
+                        <td>23/11/2022 – 22:00</td>
+                        <td>Ahmed Bin Ali</td>
+                        <td>Bélgica x Canadá</td>
+                    </tr>
+                    <tr>
+                        <td>23/11/2022 – 13:00</td>
+                        <td>Al Bayt</td>
+                        <td>Marrocos x Croácia</td>
+                    </tr>
+                    <tr>
+                        <td>27/11/2022 – 16:00</td>
+                        <td>Al Thumama</td>
+                        <td>Bélgica x Marrocos</td>
+                    </tr>
+                    <tr>
+                        <td>27/11/2022 – 19:00</td>
+                        <td>Khalifa</td>
+                        <td>Croácia x Canadá</td>
+                    </tr>
+                    <tr>
+                        <td>01/12/2022 – 18:00</td>
+                        <td>Ahmed Bin Ali</td>
+                        <td>Croácia x Bélgica</td>
+                    </tr>
+                    <tr>
+                        <td>01/12/2022 – 18:00</td>
+                        <td>Al Thumama</td>
+                        <td>Canadá x Marrocos</td>
+                    </tr>
+                </table>
+            </div>
             <div id="modalG" class="modal">
                 <a href="#fechar" title="Fechar" class="fechar">x</a>
-                <table>
+                <table class="groupsTable">
                     <tr>
                         <th>Data/Hora</th>
                         <th>Estádio</th>
@@ -212,7 +332,7 @@
             </div>
             <div id="modalH" class="modal">
                 <a href="#fechar" title="Fechar" class="fechar">x</a>
-                <table>
+                <table class="groupsTable">
                     <tr>
                         <th>Data/Hora</th>
                         <th>Estádio</th>
@@ -250,10 +370,16 @@
                     </tr>
                 </table>
             </div>
-
+            <br>
+            <h1>Playoff 1</h1>
+            <p>Ficará decidido entre Peru, Austrália ou Emirados Árabes nas eliminatórias de Playoffs.</p>
+            <br>
+            <h1>Playoff 2</h1>
+            <p>Ficará decidido entre Costa Rica e Nova Zelândia nas eliminatórias de Playoffs.</p>
+            <br>
+            <h1>Playoff Europeu</h1>
+            <p>Ficará decidido entre País de Gales, Escócia e Ucrânia nas eliminatórias de Playoffs.</p>
         </section>
-        <br>
-        <br>
     </main>
     <footer>
         <p>&copy; Copyright Grupo I - 2022</p>
