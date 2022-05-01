@@ -70,7 +70,8 @@ th, td {
     width: 800px;
     margin: 5px auto;
     border-bottom: 1px solid black;
-    padding-bottom: 10px;
+    padding: 10px;
+    background: #ebebeb;
 }
 
 .boxCountry h1 {
@@ -98,7 +99,8 @@ th, td {
 .boxWorldcup {
     width: 50%;
     margin: 5px auto 0;
-    padding-bottom: 10px;
+    padding: 10px;
+    background: #ebebeb;
 }
 
 .boxWorldcup h1 {
@@ -178,7 +180,8 @@ th, td {
 .boxStadium {
     width: 800px;
     margin: 0 auto 5px;
-    padding-bottom: 10px;
+    padding: 10px;
+    background: #ebebeb;
 }
 
 .boxStadium h1 {
